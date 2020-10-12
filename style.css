@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url("BLK_IW_VARANDA_35_PAV_14_S05_4K.jpg");
+  background-color: white;
   height: 500px;
   
   
@@ -87,7 +87,7 @@ span{
 }
 /*Create four equal columns that floats next to each other */
 .column {
-  background-image: url("images/BLK_IW_VARANDA_22_ESPACO_JUVENIL_02_4K.jpg");
+  background-image: url("IMAGES/BLK_IW_VARANDA_22_ESPACO_JUVENIL_02_4K.jpg");
   float: left;
   width: 1385px;
   height: 923px;
@@ -98,7 +98,7 @@ span{
 .column2 {
   
   background-color: black;
-  background-image: url("images/BLK_IW_VARANDA_20_PISCINA_HIDROS_02_4K.jpg");
+  background-image: url("IMAGES/BLK_IW_VARANDA_20_PISCINA_HIDROS_02_4K.jpg");
   width: 1285px;
   padding: 400px;
   height: 300px;
@@ -106,7 +106,7 @@ span{
   left: 90%;  
 }
 .column3 {
-  background-image: url("images/BLK_IW_VARANDA_24_PAV_TIPO_S02_4K.jpg");
+  background-image: url("IMAGES/BLK_IW_VARANDA_24_PAV_TIPO_S02_4K.jpg");
   padding: 400px;
   width: 1385px;
   height: 300px;
@@ -114,7 +114,7 @@ span{
   left: 173%; 
 }
 .column4 {
-  background-image: url("images/BLK_IW_VARANDA_37_PAV_14_S07_4K.jpg");
+  background-image: url("IMAGES/BLK_IW_VARANDA_37_PAV_14_S07_4K.jpg");
   float: left;
   width: 1375px;
   padding: 400px;
@@ -123,7 +123,7 @@ span{
   left: 262%;
 }
 .column5 {
-  background-image: url("images/BLK_IW_VARANDA_07_IMPLANTACAO_4K.jpg");
+  background-image: url("IMAGES/BLK_IW_VARANDA_07_IMPLANTACAO_4K.jpg");
   float: left;
   width: 1385px;
   padding: 400px;
@@ -445,7 +445,7 @@ form, .section1, .section2, .section3{
 }
 .GALLERY{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url("images/Austin+Interior+Designer-+Avery+Cox+Design-+Modern+Seaside+Cabin-+Washington+State-+Living+Room.jpg");
+  background-image: url("IMAGES/Austin+Interior+Designer-+Avery+Cox+Design-+Modern+Seaside+Cabin-+Washington+State-+Living+Room.jpg");
   font-size: 80px;
   color:  white;
   font-weight: bold;
