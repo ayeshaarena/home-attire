@@ -1,0 +1,453 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("BLK_IW_VARANDA_35_PAV_14_S05_4K.jpg");
+  height: 500px;
+  
+  
+  
+}
+/* HIDE 
+.title{
+  
+  z-index: 100;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  font-weight: normal;
+  color:  #FF3399;
+  position: fixed;
+  left: 3px;
+  bottom: 500px;
+  padding: 20px;
+  opacity: 65%;
+
+}
+/* * */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  padding: 210px 0px 0px 20px;
+  width: 200px;
+  background-color:  #D6BEA4;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+  opacity: 65%;
+  z-index: 100;
+}
+
+.sidebar a {
+  display: block;
+  color: #191B1F; 
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #FF3399;
+  color:  #e1ddd5;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:  #FF3399;
+  color:     #e1ddd5;
+}
+div.content {
+  background-color: white;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 550px;
+  width: 1285px;
+  position: sticky;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+span{
+  color: #FF3399;
+  font-size: 101px;
+  text-decoration: underline;
+}
+/*Create four equal columns that floats next to each other */
+.column {
+  background-image: url("images/BLK_IW_VARANDA_22_ESPACO_JUVENIL_02_4K.jpg");
+  float: left;
+  width: 1385px;
+  height: 923px;
+  padding: 10px;
+  padding: 400px; 
+  height: 300px;   
+}
+.column2 {
+  
+  background-color: black;
+  background-image: url("images/BLK_IW_VARANDA_20_PISCINA_HIDROS_02_4K.jpg");
+  width: 1285px;
+  padding: 400px;
+  height: 300px;
+  position: absolute;
+  left: 90%;  
+}
+.column3 {
+  background-image: url("images/BLK_IW_VARANDA_24_PAV_TIPO_S02_4K.jpg");
+  padding: 400px;
+  width: 1385px;
+  height: 300px;
+  position: absolute;
+  left: 173%; 
+}
+.column4 {
+  background-image: url("images/BLK_IW_VARANDA_37_PAV_14_S07_4K.jpg");
+  float: left;
+  width: 1375px;
+  padding: 400px;
+  height: 300px;
+  position: absolute;
+  left: 262%;
+}
+.column5 {
+  background-image: url("images/BLK_IW_VARANDA_07_IMPLANTACAO_4K.jpg");
+  float: left;
+  width: 1385px;
+  padding: 400px;
+  height: 300px;
+  position: absolute;
+  left: 350%;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.home{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 95px;
+  color: #191B1F;
+  position: relative;
+  bottom: 170px;
+  left: 200px;
+}
+.attire{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 95px;
+  color: #191B1F;
+  position: relative;
+  bottom: 258px;
+  left: 197px;
+}
+.arch{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #191B1F;
+  position: relative;
+  bottom: 320px;
+  left: 200px;
+  font-weight: bold;
+
+}
+.home1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 90px;
+  color: #191B1F;
+  position: relative;
+  right: 100px;
+  bottom: 300px;
+}
+.attire1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 90px;
+  color: #191B1F;
+  position: relative;
+  right: 100px;
+  bottom: 388px;
+   
+}
+.about{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #191B1F;
+  position: relative;
+  
+  right: 100px;
+  bottom: 450px;
+  color: #0be088;
+}
+.About2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color:  #FF3399;
+  position: relative;
+  right: 100px;
+  bottom: 230px;
+  text-shadow: black;
+}
+.Interior{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  color:  #FF3399;
+  position: relative;
+  bottom: 330px;
+  left: 300px;
+  text-shadow: black;
+}
+.Des{
+  background-color:   #FF3399;
+  opacity: 25%;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:  black;
+  position: relative;
+  bottom: 400px;
+  left: 300px;
+  line-height: 1.5rem;
+  text-align: center;
+
+}
+.Decor{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  color:  #FF3399;
+  position: relative;
+  bottom: 200px;
+  left: 250px;
+  text-shadow: black;
+}
+.choice{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: #191B1F;
+  position: relative;
+  bottom: 280px;
+  left: 100px;
+  text-shadow: black;
+}
+.ext{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  color:  #FF3399;
+  position: relative;
+  bottom: 120px;
+  left: 80px;
+  text-shadow: black;
+}
+.detail{
+  background-color:  #191B1F;
+  opacity: 50%;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:  whitesmoke;
+  position: relative;
+  bottom: 200px;
+  right: 170px;
+  line-height: 1.5rem;
+  text-align: center;
+}  
+.images{
+  height: 400px;
+  overflow: scroll;
+  border: 5px solid #FF3399;
+  position: relative;
+  bottom: 1255px;
+  
+}
+.img1{
+  position: relative;
+  bottom: 605px;
+  left: 310px;
+}
+.img2{
+  position: relative;
+  bottom: 1210px;
+  left: 620px;
+  
+}
+.img3{
+  position: relative;
+  bottom: 1816px;
+  left: 930px;
+  
+}
+.img4{
+  position: relative;
+  bottom: 1800px;  
+}
+.img5{
+  position: relative;
+  bottom: 2407px;
+  left: 310px;
+}
+.img6{
+  position: relative;
+  bottom: 3013px;
+  left: 620px;
+}
+.img7{
+  position: relative;
+  bottom: 3620px;
+  left: 930px;
+
+}
+.SERVICES{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color:   #FF3399;
+  margin-top: 150px;
+  border: 1.5px solid #FF3399;
+}
+.content-2{
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 1520px;
+  height: 400px;
+  width: 1110px;
+  
+}
+.project{
+  border: 5px solid #FF3399;
+  
+  height: 400px;
+  width: 1110px;
+  opacity: 50%;
+}
+.click{
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+position: relative;
+bottom: 100px;
+}
+.project2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+  color: #FF3399;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  bottom: 320px;
+  
+}
+/* /****NEXT**** */
+.content-3{
+  background-color: #FF3399;
+  border: 45px solid #191B1F;;
+  position: relative;
+  margin-left: 2630px;
+  height: 400px;
+  width: 1110px;
+  
+  
+}
+.social{
+  text-align: center;
+  
+  
+}
+.touch{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+  color: #191B1F;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  
+}
+a .FB, .insta, .tweet, .in{
+  margin-top: 180px;
+}
+/* /* ****content-4*** */
+.content-4{
+  background-color:#191B1F;
+  position: relative;
+  margin-left: 3700px;
+  bottom: 454px;
+  height: 400px;
+  width: 1617px;
+  
+}
+.get-in{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color:  #FF3399;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;   
+}
+.contact{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+  color:  #FF3399;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  
+  
+}
+form, .section1, .section2, .section3{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.btn{
+  background-color: turquoise;
+  font-size: 18px;
+  border: 1.5px solid #FF3399;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.content6{
+  background-color:  #FF3399;
+  height: 400px;
+  width: 1400px;
+  overflow: scroll;
+  border: 5px solid #FF3399;
+  position: relative;
+  left: 5312px;
+  bottom: 854px; 
+}
+.GALLERY{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("images/Austin+Interior+Designer-+Avery+Cox+Design-+Modern+Seaside+Cabin-+Washington+State-+Living+Room.jpg");
+  font-size: 80px;
+  color:  white;
+  font-weight: bold;
+  text-align: center;
+}
